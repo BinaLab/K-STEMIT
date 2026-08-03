@@ -91,14 +91,43 @@ This repository is released under the [MIT License](LICENSE).
 If you use this code in your research, please cite:
 
 ```bibtex
-@misc{liu2026kstemitknowledgeinformedspatiotemporalefficient,
-  title={K-STEMIT: Knowledge-Informed Spatio-Temporal Efficient Multi-Branch Graph Neural Network for Subsurface Stratigraphy Thickness Estimation from Radar Data},
-  author={Zesheng Liu and Maryam Rahnemoonfar},
-  year={2026},
-  eprint={2604.09922},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG},
-  url={https://arxiv.org/abs/2604.09922}
+@misc{liu2024multibranchspatiotemporalgraphneural,
+      title={Multi-branch Spatio-Temporal Graph Neural Network For Efficient Ice Layer Thickness Prediction}, 
+      author={Zesheng Liu and Maryam Rahnemoonfar},
+      year={2024},
+      eprint={2411.04055},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2411.04055}, 
+}
+```
+
+```bibtex
+@INPROCEEDINGS{11031955,
+  author={Liu, Zesheng and Rahnemoonfar, Maryam},
+  booktitle={2025 IEEE International Radar Conference (RADAR)}, 
+  title={Physics-Informed Spatio-Temporal Graph Neural Network for Efficient Deep Ice Layer Thickness Estimation in Radar Imagery}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Radar remote sensing;Snow;Atmospheric modeling;Radar;Radar imaging;Radar tracking;Ice;Graph neural networks;Synchronization;Meteorology;Deep Learning;Physics-informed learning;Spatio-Temporal Learning;Graph Neural Network;Ice Layer;Ice Thickness;Remote Sensing},
+  doi={10.1109/RADAR52380.2025.11031955}}
+
+```
+
+```bibtex
+@article{LIU2026134633,
+title = {K-STEMIT: Knowledge-informed spatio-temporal efficient multi-branch graph neural network for subsurface stratigraphy thickness estimation from radar data},
+journal = {Neurocomputing},
+pages = {134633},
+year = {2026},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2026.134633},
+url = {https://www.sciencedirect.com/science/article/pii/S092523122602031X},
+author = {Zesheng Liu and Maryam Rahnemoonfar},
+keywords = {Deep learning, Spatio-temporal learning, Knowledge-informed, Graph neural network, Ice thickness, Remote sensing, Radar stratigraphy},
+abstract = {Spatio-temporal patterns in subsurface stratigraphy encode key information about accumulation, deformation, and layer formation processes. For polar ice sheets and corresponding subsurface ice layer stratigraphy, variations in layer thickness provide quantitative constraints that support snow mass balance estimation, improved projections of ice sheet change, and reduced uncertainty in climate and engineering models. Radar sensors capture these layered structures as depth-resolved radargrams; however, convolutional neural networks applied directly to radargrams are often sensitive to speckle noise and acquisition artifacts. More broadly, purely data-driven approaches tend to underuse known physical knowledge, which can produce inconsistent or unrealistic thickness estimates when extrapolating across space and time. To address these challenges, we develop K-STEMIT, a novel knowledge-informed, efficient, multi-branch spatio-temporal graph neural network that combines a geometric framework for spatial learning with temporal convolution to capture temporal dynamics, and incorporates physical data synchronized from the Model Atmospheric Regional physical weather model. An adaptive feature fusion strategy is employed to dynamically combine features learned from different branches. Extensive experiments on a standardized snow-radar benchmark are conducted to compare K-STEMIT against current state-of-the-art methods in both knowledge-informed and non-knowledge-informed settings, as well as other existing methods. Results show that K-STEMIT consistently achieves the highest accuracy while maintaining near-optimal efficiency. Most notably, incorporating adaptive feature fusion and physical priors reduces the root mean-squared error by 21.99% with negligible additional cost compared to its conventional multi-branch variants. Additionally, our proposed K-STEMIT achieves consistently lower per-year relative MAE, supporting reliable, continuous spatiotemporal assessment of snow accumulation variability across large spatial regions.}
 }
 ```
 
