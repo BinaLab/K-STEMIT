@@ -1,5 +1,6 @@
 # K-STEMIT: Knowledge-Informed Spatio-Temporal Efficient Multi-Branch Graph Neural Network for Subsurface Stratigraphy Thickness Estimation from Radar Data
 
+[![ScienceDirect](https://img.shields.io/badge/ScienceDirect-Official%20Paper-FF6C00?logo=elsevier&logoColor=white)](https://doi.org/10.1016/j.neucom.2026.134633)
 [![arXiv](https://img.shields.io/badge/2604.09922-B31B1B?label=arXiv&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.09922)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
